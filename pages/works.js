@@ -1,0 +1,119 @@
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import { WorkGridItem } from '../components/grid-item'
+
+import thumbInkdrop from '../public/images/feavelPic/works/IMG_2261.jpg'
+import thumbWalknote from '../public/images/feavelPic/works/IMG_2263.jpg'
+import thumbFourPainters from '../public/images/feavelPic/works/IMG_2266.jpg'
+import thumbMenkiki from '../public/images/feavelPic/works/IMG_2267.jpg'
+import thumbModeTokyo from '../public/images/feavelPic/works/fcma.png'
+import thumbStyly from '../public/images/works/styly_eyecatch.png'
+import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+
+const Works = () => (
+  <Layout title="Works">
+    <Container>
+      <Heading as="h3" fontSize={20} mb={4}>
+        Works
+      </Heading>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="inkdrop"
+            title="Dark birds fly above the land of dreams"
+            thumbnail={thumbInkdrop}
+          >
+            Produced / Mixed / Mastered by Feavel
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="walknote"
+            title="Melancholy Dream 解憂夢醒時"
+            thumbnail={thumbWalknote}
+          >
+            Album by: jellydontdie -- Mixed by: Feavel
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="fourpainters"
+            title="Life under a cood roof"
+            thumbnail={thumbFourPainters}
+          >
+            A colaboration with FimaBoiz
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="menkiki"
+            thumbnail={thumbMenkiki}
+            title="Project Feavel"
+          >
+            Feavel&apos;s first produced, mixed, mastered album
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Collaborations
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem id="modetokyo" thumbnail={thumbModeTokyo} title="FCMA">
+            A photo and film organization
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Ali3nBabi3s">
+            A Make up fashion colab
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.4}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Old works
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.5}>
+          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
+            Twitter client app for iPhone Safari
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="freedbtagger"
+            thumbnail={thumbFreeDBTagger}
+            title="freeDBTagger"
+          >
+            Automatic audio file tagging tool using FreeDB for Windows
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.6}>
+          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
+            P2P private file sharing tool with MSN Messenger integration for
+            Windows
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+    </Container>
+  </Layout>
+)
+
+export default Works
+export { getServerSideProps } from '../components/chakra'
