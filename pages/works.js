@@ -4,11 +4,11 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/feavelPic/works/IMG_2261.jpg'
-import thumbWalknote from '../public/images/feavelPic/works/IMG_2263.jpg'
+import thumbWalknote from '../public/images/feavelPic/works/Jelly/IMG_2263.jpg'
 import thumbFourPainters from '../public/images/feavelPic/works/IMG_2266.jpg'
 import thumbMenkiki from '../public/images/feavelPic/works/IMG_2267.jpg'
-import thumbModeTokyo from '../public/images/feavelPic/works/fcma.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
+import thumbModeTokyo from '../public/images/feavelPic/works/fcmaCov.jpg'
+import thumbStyly from '../public/images/feavelPic/works/tangKitty.jpg'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
@@ -76,7 +76,7 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="styly" thumbnail={thumbStyly} title="Ali3nBabi3s">
-            A Make up fashion colab
+            A Make-up fashion colab
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -91,7 +91,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
+          <WorkGridItem
+            id="pichu2"
+            thumbnail={thumbPichu2}
+            title="Lacan & Zizek"
+          >
             Twitter client app for iPhone Safari
           </WorkGridItem>
         </Section>

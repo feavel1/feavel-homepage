@@ -18,32 +18,35 @@ const Work = () => (
   <Layout title="walknote">
     <Container>
       <Title>
-        walknote <Badge>2011-2016</Badge>
+        Melancholy Dream 解憂夢醒時 <Badge>2021-2022 03</Badge>
       </Title>
       <P>
-        walknote recommends new music you may like based on your music
-        preferences by recognizing your favorite songs stored in your device.
-        You can listen to recommended music just like a radio!
+        jellydontdie is an artist based in China, his main music genre is
+        trap/cloudrap
       </P>
       <P>
-        This service has been closed. Thank you for over 130,000 registered
-        users!
+        专辑介绍:
+        我们相拥的接吻,骑着梦幻的坐骑遨游在天空,去到了悬浮着的山谷,没有人会在意我们,
+        也没有人会知道我们,在听到上帝的呼唤之后,我们陶醉其中,并准备着最后的高潮...
+        <Link href="https://music.163.com/#/album?id=139832486">
+          解憂夢醒時 {'  '}
+        </Link>
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>iOS</span>
+          <span>Net Ease</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://archive.craftz.dog/blog.odoruinu.net/2016/09/06/farewell-from-walknote/">
-            音楽発掘アプリwalknoteクローズのお知らせ{' '}
+          <Meta>Link</Meta>
+          <Link href="https://music.163.com/#/album?id=139832486">
+            Melancholy Dream 解憂夢醒時 {'  '}
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>Objective-C, PHP, MongoDB</span>
+          <Meta>Tracks</Meta>
+          <span>16</span>
         </ListItem>
       </List>
 
@@ -86,13 +89,20 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
+      <WorkImage
+        src="/images/feavelPic/works/jelly/IMG_2263.jpg"
+        alt="walknote"
+      />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/walknote_01.png" alt="walknote" />
-        <WorkImage src="/images/works/walknote_02.png" alt="walknote" />
+        <WorkImage
+          src="/images/feavelPic/works/jelly/jellyWoods.jpg"
+          alt="walknote"
+        />
+        <WorkImage
+          src="/images/feavelPic/works/jelly/jellyCat.jpg"
+          alt="walknote"
+        />
       </SimpleGrid>
-      <WorkImage src="/images/works/walknote_03.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
     </Container>
   </Layout>
 )
