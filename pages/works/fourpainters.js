@@ -18,12 +18,11 @@ const Work = () => (
   <Layout title="The four painters">
     <Container>
       <Title>
-        The four painters <Badge>2015</Badge>
+        Life Under a Cold Roof <Badge>2015</Badge>
       </Title>
       <P>
-        A video work generated with deep learning, imitating famous four
-        painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai.
+        A colaborative album written and mixed by Feavel, with vocals of
+        FimaBoiz.
       </P>
       <List ml={4} my={4}>
         <ListItem>
