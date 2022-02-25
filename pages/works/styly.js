@@ -1,59 +1,42 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem,
-  AspectRatio
-} from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="STYLY">
+  <Layout title="Ali3n Babi3s">
     <Container>
       <Title>
-        STYLY <Badge>2017</Badge>
+        Ali3n Babies <Badge>2022</Badge>
       </Title>
       <P>
-        STYLY Studio is a creative tool for VR, allowing you to build virtual
-        spaces towards extending fashion brand&apos;s expression ability of
-        their concept. I built its web UI and backend.
+        This is a make up project that is made for people who are intrested in
+        fashion and beauty. The project mainly focuses on goth style
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web</span>
+          <span>Instagram and Web</span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>React, PHP</span>
+          <Meta>Make up artist</Meta>
+          <Link href="https://www.instagram.com/iloveali3nbabies/">
+            Alien Baby <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>Photography</Meta>
           <Link href="https://styly.cc/">
-            STYLY <ExternalLinkIcon mx="2px" />
+            Qi Miao <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="https://www.youtube.com/embed/YLdHAggLBCw"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio>
-
-      <WorkImage src="/images/works/styly_eyecatch.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_01.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_02.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_03.png" alt="STYLY" />
+      <WorkImage src="/images/feavelPic/works/Tang/tangBao1.jpg" alt="STYLY" />
+      <WorkImage src="/images/feavelPic/works/Tang/tangBao2.jpg" alt="STYLY" />
+      <WorkImage src="/images/feavelPic/works/Tang/tangBao3.jpg" alt="STYLY" />
     </Container>
   </Layout>
 )
