@@ -2,7 +2,6 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
 import thumbInkdrop from '../public/images/feavelPic/works/IMG_2261.jpg'
 import thumbWalknote from '../public/images/feavelPic/works/Jelly/IMG_2263.jpg'
 import thumbFourPainters from '../public/images/feavelPic/works/IMG_2266.jpg'
