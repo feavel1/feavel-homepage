@@ -11,7 +11,6 @@ import thumbModeTokyo from '../public/images/feavelPic/works/fcmaCov.jpg'
 import thumbStyly from '../public/images/feavelPic/works/tangKitty.jpg'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -106,12 +105,6 @@ const Works = () => (
             title="freeDBTagger"
           >
             Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
           </WorkGridItem>
         </Section>
       </SimpleGrid>

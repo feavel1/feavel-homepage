@@ -26,13 +26,13 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>DeepLearning, neural-style, Caffe, NodeJS</span>
+          <Meta>Platform</Meta>
+          <span>Net Ease (网易云音乐)</span>
         </ListItem>
         <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
-            The fun Deep Learning <ExternalLinkIcon mx="2px" />
+          <Meta>link</Meta>
+          <Link href="https://music.163.com/#/album?id=92576490">
+            Life Under a Cold Roof <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
