@@ -21,7 +21,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem
-            id="inkdrop"
+            id="dark-birds-fly"
             title="Dark birds fly above the land of dreams"
             thumbnail={thumbInkdrop}
           >
@@ -30,7 +30,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
+            id="melancholy"
             title="Melancholy Dream 解憂夢醒時"
             thumbnail={thumbWalknote}
           >
@@ -40,7 +40,7 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
+            id="lucr"
             title="Life under a cood roof"
             thumbnail={thumbFourPainters}
           >
@@ -49,7 +49,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem
-            id="menkiki"
+            id="project-feavel"
             thumbnail={thumbMenkiki}
             title="Project Feavel"
           >
@@ -68,12 +68,16 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="modetokyo" thumbnail={thumbModeTokyo} title="FCMA">
+          <WorkGridItem id="fcma" thumbnail={thumbModeTokyo} title="FCMA">
             A photo and film organization
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Ali3nBabi3s">
+          <WorkGridItem
+            id="ali3n-babi3s"
+            thumbnail={thumbStyly}
+            title="Ali3nBabi3s"
+          >
             A Make-up fashion colab
           </WorkGridItem>
         </Section>

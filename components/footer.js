@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react'
 
-const Footer = () => {
+function Footer() {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
       &copy; {new Date().getFullYear()} Baby Feavel. All Rights Reserved.
