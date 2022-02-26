@@ -94,7 +94,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem
-            id="pichu2"
+            id="psychology"
             thumbnail={thumbPichu2}
             title="Lacan & Zizek"
           >
@@ -103,7 +103,7 @@ const Works = () => (
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
-            id="freedbtagger"
+            id="how-film-music-is-made"
             thumbnail={thumbFreeDBTagger}
             title="How film music is made"
           >

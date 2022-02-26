@@ -21,9 +21,9 @@ const Work = () => (
       </Title>
       <P>
         This was a speach about psychology and psychoanaysis that I gave at FCMA
-        film club. The speach is mainly about Lacans three worlds and
-        Zizek&apos;s happines. How psychoanaysis can help us in the everyday
-        life.
+        film club. The speach is mainly about Lacan&apos;s three worlds and
+        Zizek&apos;s happines. Also I talk about how psychoanaysis can help us
+        in the everyday life.
       </P>
 
       <List ml={4} my={4}>

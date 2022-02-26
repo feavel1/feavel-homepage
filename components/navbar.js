@@ -114,7 +114,7 @@ function Navbar(props) {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/feavel1/feavel-homepage"
                 >
                   View Source
                 </MenuItem>
