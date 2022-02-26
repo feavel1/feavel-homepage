@@ -8,8 +8,8 @@ import thumbFourPainters from '../public/images/feavelPic/works/IMG_2266.jpg'
 import thumbMenkiki from '../public/images/feavelPic/works/IMG_2267.jpg'
 import thumbModeTokyo from '../public/images/feavelPic/works/fcmaCov.jpg'
 import thumbStyly from '../public/images/feavelPic/works/tangKitty.jpg'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+import thumbPichu2 from '../public/images/feavelPic/works/oldWorks/psy2.jpg'
+import thumbFreeDBTagger from '../public/images/feavelPic/works/oldWorks/music2.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -98,16 +98,16 @@ const Works = () => (
             thumbnail={thumbPichu2}
             title="Lacan & Zizek"
           >
-            Twitter client app for iPhone Safari
+            A speach at FCMA psychoanaysis Department
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
             id="freedbtagger"
             thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
+            title="How film music is made"
           >
-            Automatic audio file tagging tool using FreeDB for Windows
+            A speach at FCMA Music Department
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -14,25 +14,26 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="pichu*pichu">
+  <Layout title="FCMA">
     <Container>
       <Title>
-        pichu*pichu <Badge>2010</Badge>
+        FCMA psychoanaysis academy <Badge>2010</Badge>
       </Title>
       <P>
-        A Twitter client app for iPhone Safari, made in the iPhone 3GS era. I
-        built it for my research work at a graduate school. Got over 2,000
-        users.
+        This was a speach about psychology and psychoanaysis that I gave at FCMA
+        film club. The speach is mainly about Lacans three worlds and
+        Zizek&apos;s happines. How psychoanaysis can help us in the everyday
+        life.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>iPhone Safari</span>
+          <Meta>Location</Meta>
+          <span>FCMA film club, Shenzhen</span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>PHP, jQuery, MySQL</span>
+          <Meta>Duration</Meta>
+          <span>2 hours</span>
         </ListItem>
       </List>
 
@@ -42,24 +43,32 @@ const Work = () => (
 
       <UnorderedList my={4}>
         <ListItem>
-          <Link href="http://www.donpy.net/standard-entry/app-reiview/4303.html">
-            <Badge mr={2}>覚醒する @CDiP</Badge>
-            Webアプリ版twitterクライアントの「pichu*pichu」が凄い。{' '}
-            <ExternalLinkIcon mx="2px" />
+          <Link href="https://www.notion.so/fcma/c8a36861b7a24d1191b578bf7d18c079">
+            <Badge mr={2}>影视协会官网</Badge>
+            FCMA Home page <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
 
         <ListItem>
-          <Link href="http://labs.laurahouse.net/articles/iphone/1115.html">
-            <Badge mr={2}>LauraHouse Labs</Badge>
-            知っておきたいWebアプリ版Twitterクライアント活用法{' '}
-            <ExternalLinkIcon mx="2px" />
+          <Link href="https://www.notion.so/fcma/ebf1c51f9f6d455882cd86c9b312b1a6">
+            <Badge mr={2}>影视协会哲学课</Badge>
+            FCMA Phylosophy Page <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </UnorderedList>
 
-      <WorkImage src="/images/works/pichu2_eyecatch.png" alt="Pichu*Pichu" />
-      <WorkImage src="/images/works/pichu2_01.png" alt="Pichu*Pichu" />
+      <WorkImage
+        src="/images/feavelPic/works/oldWorks/psy2.jpg"
+        alt="Pichu*Pichu"
+      />
+      <WorkImage
+        src="/images/feavelPic/works/oldWorks/psy3.png"
+        alt="Pichu*Pichu"
+      />
+      <WorkImage
+        src="/images/feavelPic/works/oldWorks/psy5.png"
+        alt="Pichu*Pichu"
+      />
     </Container>
   </Layout>
 )

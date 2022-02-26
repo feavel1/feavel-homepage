@@ -13,16 +13,16 @@ const LogoBox = styled.span`
   padding: 10px;
 
   img {
-    transition: 200ms ease;
+    transition: 1000ms ease;
   }
 
   &:hover img {
-    transform: rotate(20deg);
+    transform: rotate(360deg);
   }
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const footPrintImg = `/images/catPrint${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href="/" scroll={false}>
