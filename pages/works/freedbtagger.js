@@ -15,16 +15,16 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="freeDBTagger">
+  <Layout title="FCMA Music">
     <Container>
       <Title>
-        freeDBTagger <Badge>2004-2009</Badge>
+        FCMA Film Music <Badge>2022</Badge>
       </Title>
       <Center my={6}>
         <Image src="/images/works/freedbtagger_icon.gif" alt="icon" />
       </Center>
-      <P>Automatic audio file tagging tool using FreeDB for Windows</P>
-      <P>楽曲長の組み合わせでアルバムを特定して楽曲情報を自動入力</P>
+      <P>A speach about film music and how it is made</P>
+      <P>The speach was given at FCMA Film Club</P>
       <P>
         アルバム内楽曲の再生時間の組み合わせで、CDDBサーバー“freeDB.org”を検索してアルバムを特定、楽曲情報を取得できるID3タグ一括編集ソフト。本ソフトを起動し、読み込んだアルバム1枚分の音楽ファイルの曲順を整えて［アルバム検索］を実行すれば、あとは本ソフトが、オープンソースで運営されているCDDBサーバー“freeDB.org”で再生時間の組み合わせからアルバムを特定して、アルバム名や曲名、アーチスト名などの情報を取得してくれる。MP3/WMA/Ogg
         Vorbis/AAC/Monkey&apos;s Audio/MPEGplus/FLAC/Twin
