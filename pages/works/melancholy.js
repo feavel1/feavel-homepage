@@ -65,16 +65,16 @@ const Work = () => (
       </UnorderedList>
 
       <WorkImage
-        src="/images/feavelPic/works/jelly/IMG_2263.jpg"
+        src="/images/feavelPic/works/Jelly/IMG_2263.jpg"
         alt="walknote"
       />
       <SimpleGrid columns={2} gap={2}>
         <WorkImage
-          src="/images/feavelPic/works/jelly/jellyWoods.jpg"
+          src="/images/feavelPic/works/Jelly/jellyWoods.jpg"
           alt="walknote"
         />
         <WorkImage
-          src="/images/feavelPic/works/jelly/jellyCat.jpg"
+          src="/images/feavelPic/works/Jelly/jellyCat.jpg"
           alt="walknote"
         />
       </SimpleGrid>
