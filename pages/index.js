@@ -83,7 +83,7 @@ function Home() {
             works and developments, always trying to make new music/stuff. At
             the same time trying to launch products and make more friends around
             the world 🌍 .{' '}
-            <NextLink href="/works/inkdrop" scroll={false}>
+            <NextLink href="/works/dark-birds-fly" scroll={false}>
               <Link>Album</Link>
             </NextLink>
           </Paragraph>
