@@ -30,8 +30,15 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Album Cover shot by</Meta>
-          <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
+          <Link href="https://www.instagram.com/qmiao_7610/">
             Qi Miao
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Album Cover Make Up Artist</Meta>
+          <Link href="https://www.instagram.com/iloveali3nbabies/">
+            Ali3n Babi3s
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

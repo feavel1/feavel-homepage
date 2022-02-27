@@ -105,6 +105,10 @@ function Home() {
             Born in Blagoveshchensk (Блaгoвeщeнcк), Russia.
           </BioSection>
           <BioSection>
+            <BioYear>2012</BioYear>
+            Moved to China (广东 - 深圳)
+          </BioSection>
+          <BioSection>
             <BioYear>2021</BioYear>
             Completed Master&apos;s Music degree in the Point Blank Music School
             (Award-winning music school with interactive classes up to
@@ -115,12 +119,9 @@ function Home() {
             Specialist Web-deveoper degree in the Institute of information &
             Technology (深圳信息职业技术学院｜移动互联网应用开发)
           </BioSection>
+
           <BioSection>
-            <BioYear>2012</BioYear>
-            Moved to China (广东 - 深圳)
-          </BioSection>
-          <BioSection>
-            <BioYear>2018 to present</BioYear>
+            <BioYear>2018 -</BioYear>
             Works as a freelance
           </BioSection>
         </Section>

@@ -26,12 +26,6 @@ const Work = () => (
             Alien Baby <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-        <ListItem>
-          <Meta>Photography</Meta>
-          <Link href="https://styly.cc/">
-            Qi Miao <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
       </List>
 
       <WorkImage src="/images/feavelPic/works/Tang/tangBao1.jpg" alt="STYLY" />
