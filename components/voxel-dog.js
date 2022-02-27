@@ -66,8 +66,11 @@ function VoxelDog() {
       camera.lookAt(target)
       setCamera(camera)
 
-      const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
-      scene.add(ambientLight)
+      const pointLight = new THREE.PointLight(0xffffff)
+      pointLight.position.set(5, 9, 5)
+
+      const ambientLight = new THREE.AmbientLight(0xffeeff)
+      scene.add(ambientLight, pointLight)
 
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
