@@ -25,9 +25,6 @@ $PROJECT_ROOT
 
 MIT License.
 
-Original Cite Link:
-
-- [Craftz Dog](https://www.craftz.dog/)
 
 ---
 
