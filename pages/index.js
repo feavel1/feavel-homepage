@@ -17,7 +17,12 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoWechat
+} from 'react-icons/io5'
 import thumbYouTube from '../public/images/feavelPic/recentMusic.jpg'
 import thumbInkdrop from '../public/images/feavelPic/helloKitty.jpg'
 import Image from 'next/image'
@@ -182,6 +187,15 @@ function Home() {
                   @babyfeavel
                 </Button>
               </Link>
+            </ListItem>
+            <ListItem>
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoWechat />}
+              >
+                tanuki20966
+              </Button>
             </ListItem>
           </List>
 
