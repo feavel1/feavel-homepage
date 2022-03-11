@@ -20,7 +20,10 @@ const Work = () => (
       <P>A photography and film organization based in China</P>
       <P>
         It is a project launched at Shenzhen Institute{' '}
-        <Link href="https://innolab.jp/" target="_blank">
+        <Link
+          href="https://www.notion.so/fcma/c8a36861b7a24d1191b578bf7d18c079"
+          target="_blank"
+        >
           FCMA 官网 <ExternalLinkIcon mx="2px" />
         </Link>
         , aiming to visualize the impact of media contents on the visit of
@@ -43,7 +46,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Link</Meta>
-          <Link href="https://www.isid.co.jp/english/news/release/2015/pdf/20150930_ModeTokyo.pdf">
+          <Link href="https://www.notion.so/fcma/c8a36861b7a24d1191b578bf7d18c079">
             FCMA home {'  '} <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

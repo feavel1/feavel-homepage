@@ -24,7 +24,7 @@ const Posts = () => (
           <GridItem
             title="My LOGIN page (source code)"
             thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+            href="https://github.com/feavel1/cssLogin-PasswordValidation"
           />
         </SimpleGrid>
       </Section>
