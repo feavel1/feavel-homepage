@@ -79,7 +79,7 @@ function Home() {
           </Box>
         </Box>
 
-        <Section delay={0.1}>
+        <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
@@ -101,7 +101,7 @@ function Home() {
           </Box>
         </Section>
 
-        <Section delay={0.2}>
+        <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
