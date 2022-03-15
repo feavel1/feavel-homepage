@@ -8,16 +8,16 @@ const variants = {
   exit: { opacity: 0, x: -0, y: 20 }
 }
 
-const Layout = ({ children, title }) => (
-  <motion.article
-    initial="hidden"
-    animate="enter"
-    exit="exit"
-    variants={variants}
-    transition={{ duration: 0.4, type: 'easeInOut' }}
-    style={{ position: 'relative' }}
-  >
-    <>
+function Layout({ children, title }) {
+  return (
+    <motion.article
+      initial="hidden"
+      animate="enter"
+      exit="exit"
+      variants={variants}
+      transition={{ duration: 0.4, type: 'easeInOut' }}
+      style={{ position: 'relative' }}
+    >
       {title && (
         <Head>
           <title>{title} - Baby Feavel</title>
@@ -26,10 +26,9 @@ const Layout = ({ children, title }) => (
         </Head>
       )}
       {children}
-
       <GridItemStyle />
-    </>
-  </motion.article>
-)
+    </motion.article>
+  )
+}
 
 export default Layout
