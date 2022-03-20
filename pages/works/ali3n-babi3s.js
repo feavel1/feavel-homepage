@@ -28,9 +28,18 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/feavelPic/works/Tang/tangBao1.jpg" alt="STYLY" />
-      <WorkImage src="/images/feavelPic/works/Tang/tangBao2.jpg" alt="STYLY" />
-      <WorkImage src="/images/feavelPic/works/Tang/tangBao3.jpg" alt="STYLY" />
+      <WorkImage
+        src="/images/feavelPic/works/Tang/tangBao1.jpg"
+        alt="Alien Babies"
+      />
+      <WorkImage
+        src="/images/feavelPic/works/Tang/tangBao2.jpg"
+        alt="Alien Babies"
+      />
+      <WorkImage
+        src="/images/feavelPic/works/Tang/tangBao3.jpg"
+        alt="Alien Babies"
+      />
     </Container>
   </Layout>
 )

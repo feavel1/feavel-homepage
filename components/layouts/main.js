@@ -24,9 +24,6 @@ function Main({ children, router }) {
         <meta name="twitter:site" content="@Feavel" />
         <meta name="twitter:creator" content="@Feavel" />
         <meta name="twitter:image" content="/card.png" />
-        <meta property="og:site_name" content="Baby Feavel's Homepage" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />
         <title>Baby Feavel - Homepage</title>
       </Head>
 
