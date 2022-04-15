@@ -42,15 +42,15 @@ function Home() {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          Hello, I&apos;m a Musician & Developer based in China!
+          I&apos;m a Developer & Intellectual based in China!
         </Box>
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Baby Feavel
+              Feavel
             </Heading>
-            <p>Digital Craftsman ( Sound engenier / Developer / Designer )</p>
+            <p>intellectual ( Sound engenier / Developer / Thinker )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -84,10 +84,10 @@ function Home() {
             Work
           </Heading>
           <Paragraph>
-            Baby Feavel is a sound engenier based in China. Passionate about his
-            works and developments, always trying to make new music/stuff. At
-            the same time trying to launch products and make more friends around
-            the world 🌍 .{' '}
+            Baby Feavel is a sound engenier/thinker based in China. Passionate
+            about his works and developments, always trying to make new
+            music/stuff. At the same time trying to launch products and make
+            more friends around the world 🌍 .{' '}
             <NextLink href="/works/dark-birds-fly" scroll={false}>
               <Link>Album</Link>
             </NextLink>

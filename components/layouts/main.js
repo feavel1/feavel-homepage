@@ -26,9 +26,7 @@ function Main({ children, router }) {
         <meta name="twitter:image" content="/card.png" />
         <title>Baby Feavel - Homepage</title>
       </Head>
-
       <NavBar path={router.asPath} />
-
       <Container maxW="container.md" pt={14}>
         <LazyVoxelDog />
         {children}

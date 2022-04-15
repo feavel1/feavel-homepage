@@ -12,7 +12,8 @@ const Work = () => (
       </Title>
       <P>
         This is a make up project that is made for people who are intrested in
-        fashion and beauty. The project mainly focuses on goth style
+        fashion and beauty. The project mainly focuses on goth/y2k style. I have
+        a job to write a web page that introduces the brand and the products.
       </P>
 
       <List ml={4} my={4}>
@@ -22,8 +23,17 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Make up artist</Meta>
-          <Link href="https://www.instagram.com/iloveali3nbabies/">
+          <Link
+            href="https://www.instagram.com/iloveali3nbabies/"
+            target="_blank"
+          >
             Alien Baby <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Web Page</Meta>
+          <Link href="https://ali3n-babi3s.vercel.app" target="_blank">
+            ali3n-babi3s.com <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>

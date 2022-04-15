@@ -5,7 +5,6 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbInkdrop from '../public/images/feavelPic/works/IMG_2261.jpg'
 import thumbWalknote from '../public/images/feavelPic/works/Jelly/IMG_2263.jpg'
 import thumbFourPainters from '../public/images/feavelPic/works/IMG_2266.jpg'
-import thumbMenkiki from '../public/images/feavelPic/works/IMG_2267.jpg'
 import thumbModeTokyo from '../public/images/feavelPic/works/fcmaCov.jpg'
 import thumbStyly from '../public/images/feavelPic/works/tangKitty.jpg'
 import thumbPichu2 from '../public/images/feavelPic/works/oldWorks/psy2.jpg'
@@ -16,98 +15,89 @@ function Works() {
     <Layout title="Works">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          Music
         </Heading>
 
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
+        <SimpleGrid columns={[1, 2, 3]} gap={6}>
+          <Section delay={0.1}>
             <WorkGridItem
               id="dark-birds-fly"
               title="Dark birds fly above the land of dreams"
               thumbnail={thumbInkdrop}
             >
-              Produced / Mixed / Mastered by Feavel
+              album by: Feavel
             </WorkGridItem>
           </Section>
-          <Section>
+          <Section delay={0.25}>
             <WorkGridItem
               id="melancholy"
               title="Melancholy Dream 解憂夢醒時"
               thumbnail={thumbWalknote}
             >
-              Album by: jellydontdie -- Mixed by: Feavel
+              album by: jellydontdie
             </WorkGridItem>
           </Section>
 
-          <Section delay={0.1}>
+          <Section delay={0.5}>
             <WorkGridItem
               id="lucr"
               title="Life under a cood roof"
               thumbnail={thumbFourPainters}
             >
-              A colaboration with FimaBoiz
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.1}>
-            <WorkGridItem
-              id="project-feavel"
-              thumbnail={thumbMenkiki}
-              title="Project Feavel"
-            >
-              Feavel&apos;s first produced, mixed, mastered album
+              album by: Feavel & FimaBoiz
             </WorkGridItem>
           </Section>
         </SimpleGrid>
 
-        <Section delay={0.2}>
+        <Section delay={0.75}>
           <Divider my={6} />
-
           <Heading as="h3" fontSize={20} mb={4}>
-            Collaborations
+            Intellectual Work
           </Heading>
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.3}>
+          <Section delay={1}>
             <WorkGridItem id="fcma" thumbnail={thumbModeTokyo} title="FCMA">
               A photo and film organization
             </WorkGridItem>
           </Section>
-          <Section delay={0.3}>
-            <WorkGridItem
-              id="ali3n-babi3s"
-              thumbnail={thumbStyly}
-              title="Ali3nBabi3s"
-            >
-              A Make-up fashion colab
-            </WorkGridItem>
-          </Section>
-        </SimpleGrid>
-
-        <Section delay={0.4}>
-          <Divider my={6} />
-          <Heading as="h3" fontSize={20} mb={4}>
-            Old works
-          </Heading>
-        </Section>
-
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.5}>
-            <WorkGridItem
-              id="psychology"
-              thumbnail={thumbPichu2}
-              title="Lacan & Zizek"
-            >
-              A speach at FCMA psychoanaysis Department
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.5}>
+          <Section delay={1.25}>
             <WorkGridItem
               id="how-film-music-is-made"
               thumbnail={thumbFreeDBTagger}
               title="How film music is made"
             >
               A speach at FCMA Music Department
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
+
+        <Section delay={1.5}>
+          <Divider my={6} />
+          <Heading as="h3" fontSize={20} mb={4}>
+            Work In Progress
+          </Heading>
+        </Section>
+
+        <SimpleGrid columns={[1, 1, 1]} gap={6}>
+          <Section delay={1.75}>
+            <WorkGridItem
+              id="psychology"
+              thumbnail={thumbPichu2}
+              title="Lacanian and Hegelian Dialectics"
+            >
+              A speach at FCMA psychoanaysis Department
+            </WorkGridItem>
+          </Section>
+
+          <Section delay={2}>
+            <WorkGridItem
+              id="ali3n-babi3s"
+              thumbnail={thumbStyly}
+              title="Ali3nBabi3s"
+            >
+              New web page for Ali3nBabi3s
             </WorkGridItem>
           </Section>
         </SimpleGrid>
