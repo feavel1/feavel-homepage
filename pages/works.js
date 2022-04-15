@@ -15,7 +15,7 @@ function Works() {
     <Layout title="Works">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Music
+          Sound Engeneering and Music Production
         </Heading>
 
         <SimpleGrid columns={[1, 2, 3]} gap={6}>
