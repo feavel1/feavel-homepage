@@ -42,7 +42,7 @@ function Home() {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          I&apos;m a Developer & Intellectual based in China!
+          STATUE OF ULYSSES BENEATH A RAM
         </Box>
 
         <Box display={{ md: 'flex' }}>
