@@ -3,12 +3,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbInkdrop from '../public/images/feavelPic/works/IMG_2261.jpg'
-import thumbWalknote from '../public/images/feavelPic/works/Jelly/IMG_2263.jpg'
 import thumbFourPainters from '../public/images/feavelPic/works/IMG_2266.jpg'
-import thumbModeTokyo from '../public/images/feavelPic/works/fcmaCov.jpg'
-import thumbStyly from '../public/images/feavelPic/works/tangKitty.jpg'
+import thumbModeTokyo from '../public/images/feavelPic/works/fcma.png'
 import thumbPichu2 from '../public/images/feavelPic/works/oldWorks/psy2.jpg'
-import thumbFreeDBTagger from '../public/images/feavelPic/works/oldWorks/music2.jpg'
+import alienBabiesPage from '../public/images/feavelPic/works/ali3n.png'
+import feavelBlogPage from '../public/images/feavelPic/works/feavel-blog.png'
 
 function Works() {
   return (
@@ -18,7 +17,7 @@ function Works() {
           Sound Engeneering and Music Production
         </Heading>
 
-        <SimpleGrid columns={[1, 2, 3]} gap={6}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <Section delay={0.1}>
             <WorkGridItem
               id="dark-birds-fly"
@@ -28,7 +27,8 @@ function Works() {
               album by: Feavel
             </WorkGridItem>
           </Section>
-          <Section delay={0.25}>
+
+          {/* <Section delay={0.25}>
             <WorkGridItem
               id="melancholy"
               title="Melancholy Dream 解憂夢醒時"
@@ -36,7 +36,7 @@ function Works() {
             >
               album by: jellydontdie
             </WorkGridItem>
-          </Section>
+          </Section> */}
 
           <Section delay={0.5}>
             <WorkGridItem
@@ -52,52 +52,52 @@ function Works() {
         <Section delay={0.75}>
           <Divider my={6} />
           <Heading as="h3" fontSize={20} mb={4}>
-            Intellectual Work
+            Web Design and Programing
           </Heading>
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={1}>
-            <WorkGridItem id="fcma" thumbnail={thumbModeTokyo} title="FCMA">
-              A photo and film organization
+            <WorkGridItem
+              id="feavel-blog"
+              thumbnail={feavelBlogPage}
+              title="Feavel's Philosphy Blog"
+            >
+              A web-app for posting philosophy and other thoughts
             </WorkGridItem>
           </Section>
+
           <Section delay={1.25}>
             <WorkGridItem
-              id="how-film-music-is-made"
-              thumbnail={thumbFreeDBTagger}
-              title="How film music is made"
+              id="ali3n-babi3s"
+              thumbnail={alienBabiesPage}
+              title="Ali3nBabi3s"
             >
-              A speach at FCMA Music Department
+              New web page for Ali3nBabi3s
             </WorkGridItem>
           </Section>
         </SimpleGrid>
 
-        <Section delay={1.5}>
+        <Section delay={2.25}>
           <Divider my={6} />
           <Heading as="h3" fontSize={20} mb={4}>
-            Work In Progress
+            Intelecutan and Creative Work
           </Heading>
         </Section>
 
-        <SimpleGrid columns={[1, 1, 1]} gap={6}>
-          <Section delay={1.75}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <Section delay={2.25}>
+            <WorkGridItem id="fcma" thumbnail={thumbModeTokyo} title="FCMA">
+              A photo and film organization
+            </WorkGridItem>
+          </Section>
+          <Section delay={2.5}>
             <WorkGridItem
               id="psychology"
               thumbnail={thumbPichu2}
               title="Lacanian and Hegelian Dialectics"
             >
               A speach at FCMA psychoanaysis Department
-            </WorkGridItem>
-          </Section>
-
-          <Section delay={2}>
-            <WorkGridItem
-              id="ali3n-babi3s"
-              thumbnail={thumbStyly}
-              title="Ali3nBabi3s"
-            >
-              New web page for Ali3nBabi3s
             </WorkGridItem>
           </Section>
         </SimpleGrid>

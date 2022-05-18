@@ -17,7 +17,7 @@ const Work = () => (
   <Layout title="FCMA">
     <Container>
       <Title>
-        FCMA psychoanalysis academy <Badge>2010</Badge>
+        FCMA psychoanalysis academy <Badge>2021</Badge>
       </Title>
       <P>
         This was a speach about psychology and psychoanalysis that I gave at

@@ -52,13 +52,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/feavelPic/works/fcma.png" alt="mode.tokyo" />
+      <WorkImage src="/images/feavelPic/works/fcma.png" alt="fcma" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/feavelPic/works/fcmaCov.jpg" alt="mode.tokyo" />
-        <WorkImage
-          src="/images/feavelPic/works/fcmaCov2.jpeg"
-          alt="mode.tokyo"
-        />
+        <WorkImage src="/images/feavelPic/works/fcmaCov.jpg" alt="fcma" />
+        <WorkImage src="/images/feavelPic/works/fcmaCov2.jpeg" alt="fcma" />
       </SimpleGrid>
     </Container>
   </Layout>

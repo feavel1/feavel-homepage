@@ -40,6 +40,7 @@ function Home() {
           mb={6}
           p={3}
           textAlign="center"
+          opacity={0.6}
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
           STATUE OF ULYSSES BENEATH A RAM
@@ -88,9 +89,9 @@ function Home() {
             about his works and developments, always trying to make new
             music/stuff. At the same time trying to launch products and make
             more friends around the world 🌍 .{' '}
-            <NextLink href="/works/dark-birds-fly" scroll={false}>
-              <Link>Album</Link>
-            </NextLink>
+            <Link href="https://feavel-blog.vercel.app/" target="_blank">
+              feavel-blog
+            </Link>
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" scroll={false}>
@@ -131,7 +132,7 @@ function Home() {
           </BioSection>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.6}>
           <Heading as="h3" variant="section-title">
             ♥ Hobbies ♥
           </Heading>
@@ -147,7 +148,7 @@ function Home() {
           </Paragraph>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.9}>
           <Heading as="h3" variant="section-title">
             On the web
           </Heading>
@@ -209,10 +210,10 @@ function Home() {
             </GridItem>
             <GridItem
               href="https://ali3n-babi3s.vercel.app"
-              title="My Cutest Girl-friend"
+              title="Ali3n Babi3s - Home Page"
               thumbnail={thumbInkdrop}
             >
-              My daily life
+              Check out my reacent web-design work
             </GridItem>
           </SimpleGrid>
 
