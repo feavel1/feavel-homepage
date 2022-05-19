@@ -43,7 +43,7 @@ const Work = () => (
         <Center>Media coverage</Center>
       </Heading>
 
-      <WorkImage src="/images/feavelPic/works/IMG_2266.jpg" alt="walknote" />
+      <WorkImage src="/images/feavelPic/works/fimaAlbum.webp" alt="walknote" />
     </Container>
   </Layout>
 )
