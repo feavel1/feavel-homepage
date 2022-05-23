@@ -17,7 +17,7 @@ function Works() {
           Sound Engeneering and Music Production
         </Heading>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.1}>
             <WorkGridItem
               id="dark-birds-fly"
