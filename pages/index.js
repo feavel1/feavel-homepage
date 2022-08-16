@@ -70,7 +70,7 @@ function Home() {
               overflow="hidden"
             >
               <ProfileImage
-                src="/images/feavel.jpg"
+                src="/images/feavel2.jpg"
                 alt="Profile image"
                 borderRadius="full"
                 width="100%"
